@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="成人在线，夜夜撸，免费A片，色影院，日日更新视频，草榴视频，乱伦，人体艺术，色吧图片，成人小说">
+    <meta http-equiv="description" content="成人在线，夜夜撸，免费A片，色影院，日日更新视频，草榴视频，乱伦，人体艺术，色吧图片，成人小说">
+
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="/assets/images/theme/default/maomi_32x32.png">
+    <script src="../assets/js/common/juqery/jquery.js"></script>
+    <script src="../assets/js/common/common.js"></script>
+</head>
+
+<body class="enter-content">
+</body>
+
+<script>
+    $(function() {
+        function changeEnterPage() {
+            let enterUrl = '/enter/pc.html';
+            if (isMobile()) {
+                if (isIOS()) {
+                    enterUrl = '/enter/ios.html';
+                } else if (isAndroid()) {
+                    enterUrl = '/enter/android.html';
+                }
+            }
+            window.location.href = enterUrl;
+        }
+        changeEnterPage();
+    })
+</script>
+
+</html>
